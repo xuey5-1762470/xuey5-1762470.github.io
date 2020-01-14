@@ -1,61 +1,28 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Welcome to Clara's Page!</title>
+    <head>
+        <title>Welcome to my embedding page!</title>
     </head>
-	<body>
-		<h1>Clara Xue</h1>
-		<h2>About Me</h2>
-		<p>I was born in South-east China.</p>
-		<p>I love singing, skiing, and watching drama shows!</p>
-		<br>
-
-		<h2>My Favorite Sites</h2>
-		<ul>
-			<li>
-				<a href="https://www.bilibili.com">Bilibili</a>
-			</li>
-			<li>
-				<a href="https://www.youtube.com">Youtube</a>
-			</li>
-			<li>
-				<a href="https://www.washington.edu">UW Homepage</a>
-			</li>
-			<li>
-				<a href="https://leetcode.com/problemset/all/"> Leetcode</a>
-			</li>
-			<li>
-				<a href="https://courses.cs.washington.edu/courses/cse344/">CSE344</a>
-			</li>
-		</ul>
-		<br>
-
-		<h2>My Favorite Pictures</h2>
-		<a href="http://www.neiquanhui.com/zongyi/26527.html" > 
-			<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5ibTToHGI52NLR51KBP1qk6pu2zo-TX0Y4OD-8PYgcLwBLhEe&s" title="cql" style="width:100px; height:100px; margin:5px">
-		</a>
-
-		<a href="http://zqb.cyol.com/html/2019-07/02/nw.D110000zgqnb_20190702_5-08.html" > 
-			<img src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFj7WK1khFduMjiw1QbwU6_MmdLXiGWAPv3n_hjSstfd3eyP21&s title="xz" 
-			style="width:100px; height:100px; margin:5px">
-		</a>
-		<br>
-
-		<center>This text will be center-aligned.</center>
-		<button type="button">Click Me!</button>
-		
-		<canvas id="myCanvas"></canvas>
-		<script>
-		var canvas = document.getElementById("myCanvas");
-		var ctx = canvas.getContext("2d");
-		ctx.fillStyle = "#FF0000";
-		ctx.fillRect(0, 0, 80, 80);
-		</script>
-
-		 <video width="560" height="315" controls>
+    <body>
+        <h1>Welcome to my embedding page!</h1>
+        <audio controls>
+            <source src="http://antiserver.kuwo.cn/anti.s?rid=MUSIC_4057674&response=res&format=mp3|aac&type=convert_url&br=128kmp3&agent=iPhone&callback=getlink&jpcallback=getlink.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
+        <br>
+        <br>
+        <video width="560" height="315" controls>
             <source src="http://tb-video.bdstatic.com/tieba-smallvideo-transcode-crf/16897743_91f07f5ce91b8ea136721be36bc7fc69_0.mp4" type="video/mp4">
           Your browser does not support the video tag.
         </video>
-
-	</body>
+        <br>
+        <br>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/6fMRFPCJqDk?start=180&cc_load_policy=1" frameborder="0" 
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+        </iframe>
+        <br>
+        <br>
+        <object data="https://media.geeksforgeeks.org/wp-content/cdn-uploads/Geek_logi_-low_res.png" width="550px" height="150px">GeeksforGeeks</object> 
+        <script src="//rss.bloople.net/?url=https%3A%2F%2Frss.nytimes.com%2Fservices%2Fxml%2Frss%2Fnyt%2FHomePage.xml&limit=1&showtitle=false&type=js"></script>
+    </body>
 </html>
