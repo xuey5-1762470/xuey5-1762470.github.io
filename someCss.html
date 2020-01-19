@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style> 
+        h1{
+            color: white;
+            font-family: verdana;
+            font-size: 100%;
+            margin: 50px;
+        }
+        p { 
+            color: red;
+            font-family: courier;
+            font-size: 100%;
+            margin: 50px;
+        }
+        .container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size:100%
+}
+p.dotted {border-style: dotted;}
+span{
+    float: left;
+    width:0.7em;
+    font-size:400%;
+    font-family:'Courier New', Courier, monospace
+    line-height:100%;
+}
+#rcorners1 {
+    border-radius: 25px;
+    background: rgb(158, 117, 177);
+    padding: 20px; 
+    width: 200px;
+    height: 150px;    
+}
+        </style>
+<link rel="stylesheet" type="text/css" href="anExternal.css">
+    </head>
+
+
+    <body>
+        <h1>This is my first paragraph. It uses the color white.
+            This is my first paragraph. It uses the color white.
+            This is my first paragraph. It uses the color white.
+            This is my first paragraph. It uses the color white.
+            This is my first paragraph. It uses the color white.
+            This is my first paragraph. It uses the color white.
+        </h1>
+        <p>Second paragraph. Uses red.
+            more random words to make this look like a paragraph.Second paragraph. Uses red, and the font courier at 160 font size
+            more random words to make this look like a paragraph.Second paragraph. Uses red, and the font courier at 160 font size
+            more random words to make this look like a paragraph.Second paragraph. Uses red, and the font courier at 160 font size
+            more random words to make this look like a paragraph.
+        </p>
+        <p>Images</p>
+        <img src="https://i1.wp.com/lh6.ggpht.com/_eeV_tOUbPJY/TFVY64KNR4I/AAAAAAAABZg/QDyxcNbabEA/s800/chocobi070422pk1.jpg?resize=320%2C240" 
+        style="width:50px;height:50px">
+        <img src="https://images-na.ssl-images-amazon.com/images/I/61NecgSc1PL._AC_UL320_SR198,320_.jpg"
+        style="width: 50px; height:50px">
+
+        <div class="container">
+            <img src="https://tribzap2it.files.wordpress.com/2016/07/we-bare-bears-cartton-network.jpg?w=1100&h=618" alt="Bears" style="width:30%;">
+            <div class="centered">Center Text</div>
+            </div>
+
+     
+        <h4>Picture of Bob and his Family</h4>
+            <p><img src="https://consequenceofsound.files.wordpress.com/2017/10/bobs-burgers-movie.jpg?quality=80&w=807"
+                 alt="Bob" hspace="20"style="width:30%;"> This is Bob. This is some text of Bob. Bob has 20 pixel margins on each side
+                 BOBOBOBOBBOBOB.</p>
+                 <p>bob is nice</p> 
+    
+        <p class="dotted"> Text about Bob and his family in dotted borders</p>
+    
+    <p><span>T</span>he first letter in this sentence will float. How nice.
+        Let's make this paragraph a little longer by repeating everything.
+        The first letter in this sentence will float. How nice.
+        Let's make this paragraph a little longer by repeating everything.
+        One more time.
+        The first letter in this sentence will float. How nice.
+        Let's make this paragraph a little longer by repeating everything.    
+</p>
+<p>Rounded border corners leggo</p>
+<p id="rcorners1">Rounded corners waddup</p>
+    </body>
+</html>
